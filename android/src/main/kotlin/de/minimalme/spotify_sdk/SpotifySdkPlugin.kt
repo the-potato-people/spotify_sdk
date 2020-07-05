@@ -106,6 +106,7 @@ class SpotifySdkPlugin(private val registrar: Registrar) : MethodCallHandler, Pl
             "playlist-read-private",
             "playlist-modify-public",
             "user-read-currently-playing"
+            "user-read-currently-playing",
             "user-top-read",
             "user-read-private",
             "user-library-read",
