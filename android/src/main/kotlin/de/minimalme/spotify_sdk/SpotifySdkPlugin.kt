@@ -101,15 +101,12 @@ class SpotifySdkPlugin(private val registrar: Registrar) : MethodCallHandler, Pl
 
     private val requestCodeAuthentication = 1337
     private val scope = arrayOf(
-            "app-remote-control",
-            "user-modify-playback-state",
             "playlist-read-private",
-            "playlist-modify-public",
             "user-read-currently-playing",
             "user-top-read",
             "user-read-private",
             "user-library-read",
-            "user-read-email")
+           )
 
     private var pendingOperation: PendingOperation? = null
     private var spotifyAppRemote: SpotifyAppRemote? = null
