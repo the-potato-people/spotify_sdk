@@ -105,7 +105,6 @@ class SpotifySdkPlugin(private val registrar: Registrar) : MethodCallHandler, Pl
             "user-read-currently-playing",
             "user-top-read",
             "user-read-private",
-            "user-library-read",
            )
 
     private var pendingOperation: PendingOperation? = null
